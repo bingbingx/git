@@ -35,6 +35,7 @@ public class TestController {
         System.out.println(123);
         System.out.println(123);
         System.out.println("打tag");
+        System.out.println("打tag");
         redisTemplate.opsForValue().set("redis","asdf");
         return redis;
     }
