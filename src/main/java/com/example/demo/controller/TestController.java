@@ -10,12 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 
 /**
  * @version 1.0
- * @description:
+ * @description: 测试代码
  * @author: bing
  * @date: 2020/3/21 18:25
  */
@@ -35,6 +34,7 @@ public class TestController {
         System.out.println(redis);
         System.out.println(123);
         System.out.println(123);
+        System.out.println("打tag");
         redisTemplate.opsForValue().set("redis","asdf");
         return redis;
     }
