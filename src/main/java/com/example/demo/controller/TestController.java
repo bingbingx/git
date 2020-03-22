@@ -34,6 +34,7 @@ public class TestController {
         String redis = redisTemplate.opsForValue().get("redis");
         System.out.println(redis);
         System.out.println(123);
+        System.out.println(123);
         redisTemplate.opsForValue().set("redis","asdf");
         return redis;
     }
